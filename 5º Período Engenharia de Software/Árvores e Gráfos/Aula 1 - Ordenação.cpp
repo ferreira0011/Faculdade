@@ -4,10 +4,14 @@
 #define tam 10
 
 /*
+
+Ordenação bubble sort
+
 Algoritmo de ordenação
 Vetor 10 posições inteiros aleatórios.
 Ordem crescente, menor para o maior
 mostrar o vetor final
+
 */
 
 int main() {
@@ -18,10 +22,10 @@ int main() {
 	
 	//Preenchendo o vetor
 	for(i=0; i<tam; i++) {
-		printf("Digite o %dº valor: ", i +1);
-		scanf("%d", &vet[i]);
-		
-		system("cls");
+		//printf("Digite o %dº valor: ", i +1);
+		//scanf("%d", &vet[i]);
+		vet[i] = rand () % tam;
+		//system("cls"); //Limpar tela
 		
 	}
 	
