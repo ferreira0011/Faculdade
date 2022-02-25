@@ -85,6 +85,15 @@ void iniciar(void) {
 	printf("1 para Sim\n0 para Não\n");
 	scanf("%d",&inicio);
 	system("cls"); //Limpar tela.
+	
+	if (inicio == 1) {
+		//Bubble Sort.
+		int numComparacoesBubble = 0; //Conta o número de comparações feitas no algoritmo.
+		int numTrocasBubble = 0;  //Conta o número de trocas feitas no algoritmo.
+		//Selection Sort.
+		int numComparacoesSelection = 0;  //Conta o número de trocas feitas no algoritmo.
+		int numTrocasSelection = 0;  //Conta o número de trocas feitas no algoritmo.
+	}
 }
 
 //Preenchendo o vetor.
@@ -103,6 +112,8 @@ void preencherVetor(void) {
 //Bubble sort.
 //Ordenando o vetor bubble sort.
 void ordenacaoBubbleSort(void) {
+	numComparacoesBubble = 0;
+	numTrocasBubble = 0;
 	for(i=0; i<tam; i++) {
 		numComparacoesBubble += 1; //Conta o número de comparações feitas no algoritmo.
 		for(j=i+1; j<tam; j++) {
@@ -119,6 +130,8 @@ void ordenacaoBubbleSort(void) {
 //Selection sort.
 //Ordenando o vetor Selection sort.
 void ordenacaoSelectionSort(void) {
+	numComparacoesSelection = 0;
+	numTrocasSelection = 0;
 	for(i=0; i<tam-1; i++) {
 		numComparacoesSelection += 1; //Conta o número de comparações feitas no algoritmo.
 		menor = i;
