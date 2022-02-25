@@ -9,9 +9,7 @@ Algoritmo de ordenação
 Vetor 7 posições inteiros digitados pelo usuário.
 Ordem crescente, menor para o maior
 mostrar o vetor final com quantidade de comparações e trocas.
-
 2011258 - Victor Alves Ferreira
-
 */
 
 //tam == tamanho do vetor.
@@ -77,9 +75,7 @@ main() {
 	
 	iniciar();
 	
-	}
-	
-	
+	}	
 }
 //Funções.
 
