@@ -1,0 +1,23 @@
+<style>
+			body {
+				background: green;
+			}	
+			p.texto {
+				border: 5px dashed red;
+				margin-top: 60px;
+				padding: 20px;
+			}
+			#menu {
+				border: 1px solid red;
+			}
+			#menu li {
+				display: inline;
+				color: yellow;
+				}
+			ul#menu li a {
+				border: 1px solid red;
+				font-size: 20pt;
+				padding 10px;
+				margin-right: 50px;
+				}
+		</style>

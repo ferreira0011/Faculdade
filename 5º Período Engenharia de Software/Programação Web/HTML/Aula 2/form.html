@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Hello World</title>
+		<link rel="stylesheet" href="css\style.css">
+	</head>
+	<body>
+		<h1>Novo Cadastro</h1>
+		<h2>Programação Web</h2>
+		<!-- Comentário -->
+		<p>
+			Lista...
+		</p>
+		<ul class="menu cor" id="menu-principal">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="table.html">Cadastros</a></li>
+			<li><a href="form.html">Novo Cadastro</a></li>
+		</ul>
+		
+		<form method="post">
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" class ="input-control" id="nome"/>
+				<br>
+			</div>
+			
+			<div>
+				<label for="telefone">Telefone:</label>
+				<input type="text" name="telefone" class ="input-control" id="telefone"/>
+				<br>
+			</div>
+			
+			<style>
+			#telefone{ margin-top : 5px;}
+			</style>
+			
+			<div>
+				<label for="tipo">Celular:</label>
+				<input type="radio" name="tipo-tel" value="Celular" class ="input-control" id="tipo"/>
+				<br>
+			</div>
+			
+			<div>
+				<label for="tipo">Fixo:</label>
+				<input type="radio" name="tipo-tel" value="Fixo" class ="input-control" id="tipo"/>
+				<br>
+			</div>
+			
+			<div>
+				<label for="tipo">Empresa:</label>
+				<input type="radio" name="tipo-tel" value="Empresa" class ="input-control" id="tipo"/>
+				<br>
+			</div>
+			
+			<div>
+				<label for="">Ativo:</label>
+				<input type="checkbox" name="status" value="1" class ="input-control" id="status"/>
+				<br>
+			</div>
+			
+			<div>
+				<label for="idCidade">Cidade</label>
+				<select name="id_cidade" class+"select" id="idCidade">
+					<option value="1">Anápolis</option>
+					<option value="2">Goiânia</option>
+				</select>
+			</div>
+			<br>
+			<button type="submit">Salvar</button>
+			</form>
+	</body>
+</html>

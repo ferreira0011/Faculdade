@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Hello Word</title>
+	</head>
+	<body>
+		<h1>Cadastros</h1>
+		<h2>Programação Web</h2>
+		<!-- Comentário -->
+		<p>
+			Lista...
+		</p>
+		<ul class="menu cor" id="menu-principal">
+			<li><a href="home.html">Home</a></li>
+			<li><a href="table.html">Cadastros</a></li>
+			<li><a href="form.html">Novo Cadastro</a></li>
+		</ul>
+		<table border="1" class="table-cor" id="contatos">
+			<tr>
+				<th>Nome</th>
+				<th>Telefone</th>
+			</tr>
+			<tr>
+				<td>Victor</td>
+				<td>62 9 84002835</td>
+			</tr>
+		</table>
+	</body>
+</html>
