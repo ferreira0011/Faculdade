@@ -1,0 +1,34 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+table {
+  width: 600px;
+  margin: auto;
+}
+.non-city {
+  text-align: center;
+}
+.row-1 {
+  background-color: #66c5e3;
+}
+.pos {
+  background-color: silver;
+  width: 5px;
+  text-align: center;
+}
+.cidade {
+  color: #0d5188;
+}
+#title {
+  text-align: center;
+}
+#center {
+  text-align: center;
+}
+#title-cell {
+  text-align: center;
+  width: 70%;
+  background-color: #0d5188;
+  color: white;
+}
